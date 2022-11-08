@@ -15,6 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        _logger.LogInformation("Teste Log Warning - Index - Home Controller ");
         _logger.LogWarning("Teste Log Warning - Index - Home Controller ");
         _logger.LogError("Teste Log Error - Index - Home Controller ");
 
@@ -23,6 +24,7 @@ public class HomeController : Controller
 
     public IActionResult Privacy()
     {
+        _logger.LogInformation("Teste Log Warning - Index - Home Controller ");
         _logger.LogWarning("Teste Log Warning - Privacy - Home Controller ");
         _logger.LogError("Teste Log Error - Privacy - Home Controller ");
 
